@@ -51,7 +51,7 @@
 
 </br>
 
-**設定項目の詳細はZPL2 コマンドリファレンスを参照のこと**
+[設定項目の詳細はZPL2 コマンドリファレンスを参照のこと](https://www.zebra.com/content/dam/support-dam/en/documentation/unrestricted/guide/software/zpl-zbi2-pg-en.pdf)
 
 </br>
 
