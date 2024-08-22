@@ -115,11 +115,11 @@ zebra@blacklily:~$ nc -l -p 9999 -k
 #### 例、UDP: Port 9999
 
 ```
-! U1 setvar "alerts.add" "ALL MESSAGES,UDP,Y,Y,192.168.4.100,9999,N,"
+! U1 setvar "alerts.add" "ALL MESSAGES,UDP,Y,Y,192.168.4.100,9998,N,"
 ```
 
 ```
-pi@raspberrypi0:/var/log $ nc -l -u -p 9999 -k
+pi@raspberrypi0:/var/log $ nc -l -u -p 9998 -k
 LABEL TAKEN:  [2024-07-21 18:26:13] [XXZKJ181100602]
 ERROR CLEARED: HEAD OPEN [2024-07-21 18:26:22] [XXZKJ181100602]
 ERROR CONDITION: PAPER OUT [2024-07-21 18:26:23] [XXZKJ181100602]
