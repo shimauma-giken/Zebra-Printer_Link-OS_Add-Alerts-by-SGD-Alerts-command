@@ -112,7 +112,7 @@ zebra@blacklily:~$ nc -l -p 9999 -k
 
 </br>
 
-#### 例、UDP: Port 9999
+#### 例、UDP: Port 9998
 
 ```
 ! U1 setvar "alerts.add" "ALL MESSAGES,UDP,Y,Y,192.168.4.100,9998,N,"
